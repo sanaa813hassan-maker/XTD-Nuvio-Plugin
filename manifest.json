@@ -1,0 +1,22 @@
+{
+  "name": "XTD - Arabic & Global MP4",
+  "version": "1.0.0",
+  "description": "XTD: أفلام ومسلسلات وأنمي بروابط MP4 مباشرة + ترجمات عربي SRT + دبلجات (via videodownloader.site API)",
+  "author": "sanaa813hassan-maker",
+  "scrapers": [
+    {
+      "id": "xtd",
+      "name": "XTD",
+      "description": "Direct MP4 movies & series & anime with Arabic subtitles and dubs — no torrents needed",
+      "version": "1.0.0",
+      "author": "sanaa813hassan-maker",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/xtd.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["mp4"],
+      "logo": "https://www.google.com/s2/favicons?domain=videodownloader.site&sz=128",
+      "contentLanguage": ["ar", "en"]
+    }
+  ]
+}
